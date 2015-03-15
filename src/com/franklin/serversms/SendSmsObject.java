@@ -24,6 +24,7 @@ public class SendSmsObject {
 		if(ownNumber.startsWith("+86")) {  //	È¥³ýÇ°×º+86
 			this.ownNumber = ownNumber.substring(3);
 		}
+		
 		getSendSms();
 	}
 	private void  getSendSms() {
