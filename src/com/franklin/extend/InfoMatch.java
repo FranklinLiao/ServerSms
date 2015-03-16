@@ -12,8 +12,8 @@ import java.util.List;
 
 public class InfoMatch {
 	private List<ReceiverObject> receiverObjects = new ArrayList<ReceiverObject>();
-	//private String file = "/com/franklin/extend/ClientReceiver.properties";
-	private String file = "/com/franklin/extend/ClientReceiverTemp.properties";
+	private String file = "/com/franklin/extend/ClientReceiver.properties";
+	//private String file = "/com/franklin/extend/ClientReceiverTemp.properties";
 	public InfoMatch() {
 		try {
 			InputStream inputStream = getClass().getResourceAsStream(file);
